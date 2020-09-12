@@ -7,7 +7,7 @@ using UnityEngine;
 public class Fading : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
-    public float speed;//血迹消失速度
+    public float speed;//血迹消失速度,可以外面进行调节
     public float waitTime;
     private bool startFading;
     public bool isEnemyBlood;
